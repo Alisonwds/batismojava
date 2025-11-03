@@ -1,0 +1,54 @@
+package NivelBasico.Aulas.EstruturaDeDados;
+
+public class Array {
+    public static void main(String[] args) {
+
+        // Arrays são tipo referência
+        // String inicializa como null
+        String[] ninja = new String[6];
+
+        ninja[0] = "Naruto Uzumaki";
+        ninja[1] = "Sasuke Uchiha";
+        ninja[2] = "Sakura Haruno";
+        ninja[3] = "Hinata Hyuga";
+        ninja[4] = "Kakashi Hatake";
+
+        //Array idade
+        // Int inicializam como 0
+        int[] idade = new int[2];
+        idade[0] = 10;
+        System.out.println(idade[1]);
+
+        // Booleans inicializam como false
+        boolean[] verdadeiroOuFalso = new boolean[1];
+        System.out.println(verdadeiroOuFalso[0]);
+
+        // Doubles incializam como 0.0
+        double[] flutuante = new double[1];
+        System.out.println(flutuante[0]);
+
+        // Redeclarar
+        String nomeNinja = "Naruto Uzumaki";
+        nomeNinja = "Sasuke Uchiha";
+        System.out.println(nomeNinja);
+
+        // Redeclarar o ARRAY
+        ninja = new String[7];
+        ninja[0] = "Hashirama Senju";
+        ninja[1] = "Tobirama Senju";
+        ninja[2] = "Hiruzen Sarutobi";
+        ninja[3] = "Minato Namikaze";
+        ninja[4] = "Tsunade";
+        ninja[5] = "Kakashi Hatake";
+        ninja[6] = "Naruto Uzumaki";
+
+        System.out.println(ninja[7]);
+
+        // For para fazer um LOOP no array
+        for (int i = 0; i < ninja.length; i++) {
+            System.out.println(ninja[i]);
+        }
+
+
+    }
+}
