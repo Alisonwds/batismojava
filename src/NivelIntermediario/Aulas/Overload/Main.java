@@ -23,5 +23,10 @@ public class Main {
         madara.habilidadeEspecial();
         madara.estrategiaDeBatalhaNinja();
 
+        // Metodo comum
+        madara.inteligenciaDeCombate();
+        // Metodo sobrecarregado
+        madara.inteligenciaDeCombate(90);
+
     }
 }
